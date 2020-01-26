@@ -19,4 +19,4 @@ I enjoyed designing and making this application. I was able to practice improve 
 
 ### `How Do I Run This?`
 
-Live Demo: [Click Here](https://jp-sdev.github.io/countryPicker1.0/)
+Live Demo: [Click Here](https://infinite-cove-15888.herokuapp.com/)
