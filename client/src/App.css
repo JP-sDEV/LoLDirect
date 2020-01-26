@@ -1,0 +1,296 @@
+:root {
+  --mainColor: #5383e8;
+  --secondaryColor: #bbccf0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  color: #000;
+}
+
+/* HEADER */
+.grid {
+  display: grid;
+  background-color: var(--mainColor);
+}
+
+#headerTitle h3 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#headerImg {
+  display: inline-block;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 100%;
+}
+
+.submitSearch {
+  background-color: var(--secondaryColor);
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2% 0;
+  margin-top: 2%;
+}
+.navLink {
+  width: 25%;
+  color: black;
+  text-decoration: none;
+}
+
+.homePlayer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Player Cards */
+.playerCard {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border: 2px solid #c9d6de;
+  width: 75%;
+  margin: 0 auto;
+  background: #f0f5f9;
+  margin-top: 3%;
+}
+
+.playerCardTop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.playerCardTop .teamLogo {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  position: relative;
+  align-self: flex-end;
+}
+.playerCardTop .foreground {
+  width: 100%;
+  height: 100%;
+}
+.playerCardButton {
+  background-color: #c9d6de;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6em;
+  font-size: 0.8em;
+}
+
+.logoContainer {
+  margin: 0 auto;
+}
+
+.teamLogos {
+  width: 40%;
+  height: 50%;
+}
+
+/* NEWS PAGE */
+#newsSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsPage {
+  margin: 0 2%;
+}
+
+/* NEWS CARDS */
+.newsCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2%;
+  border: 2px solid #c9d6de;
+  padding: 0 3%;
+  background: #f0f5f9;
+}
+
+.newsHeader {
+  color: black;
+  text-decoration: none;
+}
+.newsCard h4 {
+  text-align: left;
+}
+.newsPaper {
+  margin-right: 5%;
+  font-size: 3em;
+  text-align: left;
+}
+
+.redditSquare {
+  margin: 0 auto;
+  margin-right: 0;
+  font-size: 2em;
+  align-self: flex-start;
+  left: 0;
+}
+.fa-reddit-square:before {
+  color: black;
+}
+
+.newsButtons {
+  margin-bottom: 3%;
+}
+
+/* PLAYER INFO */
+.playerInfoPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBox {
+  border: 2px solid #c9d6de;
+  margin: 2% 10%;
+  padding: 3%;
+}
+
+.infoImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+}
+
+.infoTeamImage {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  position: relative;
+  align-self: flex-end;
+}
+
+.infoPlayerImage {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+}
+
+.infoPrimary {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+.primaryName {
+  display: flex;
+  flex-direction: column;
+}
+.primaryName h3,
+.primaryName h4 {
+  margin: 0;
+}
+
+.infoSecondary {
+  padding-left: 10%;
+}
+
+.infoList {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  /* NAVBAR */
+  #showCase {
+    display: flex;
+    flex-direction: column;
+  }
+  a,
+  h3 {
+    font-size: 1.2em;
+  }
+  .navBar {
+    justify-content: center;
+    margin-top: 0;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1%;
+  }
+  #headerImg {
+    width: 10%;
+  }
+
+  /* HOME PAGE */
+  .homePlayer {
+    width: 15%;
+    margin: 0 auto;
+  }
+  .homeTeams > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .logoContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* PLAYER SEARCH  */
+  .playerCardItem {
+    width: 25%;
+  }
+
+  .playerSearchSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+
+  /* NEWS  PAGE */
+  .newsContent {
+    text-align: left;
+  }
+  .newsCard {
+    margin: 1% 10%;
+  }
+
+  .newsButtons {
+    margin-bottom: 2%;
+  }
+
+  /* PLAYER INFO */
+  .playerInfoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .infoPlayerImage {
+    width: 70%;
+    margin: 0 auto;
+  }
+  /* MEDIA QUERY END */
+}
+/* MEDIA QUERY END */
