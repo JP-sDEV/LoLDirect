@@ -22,6 +22,7 @@ Look up professional League of Legends players, the latest League of Legends New
 
 Player data was pulled via [PandaScore](https://pandascore.co/welcome).
 News data was supplied via [Esports Subreddit](https://www.reddit.com/r/esports/)
+The design was inspired by [OP.GG](https://na.op.gg/)
 
 ### `Why Make This?`
 
