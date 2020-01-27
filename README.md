@@ -4,6 +4,18 @@ Project was bootstrapped via [Create React App](https://github.com/facebook/crea
 
 ### `Tech Used`
 
+- Server Side:
+
+  - Node JS
+  - Express JS (Framework)
+  - Axios
+  - RSS-Parser (NPM Package)
+
+- Client Side:
+  - React
+  - React Router Dom
+  - Axios
+
 ### `What is it?`
 
 Look up professional League of Legends players, the latest League of Legends News all in one place. This site is both mobile and desktop friendly.
