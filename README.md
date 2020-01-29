@@ -2,6 +2,12 @@
 
 Project was bootstrapped via [Create React App](https://github.com/facebook/create-react-app)
 
+## Mobile view (iPhone X):
+<img src="READMEImgs/mobileView.PNG" height="75%"/>
+
+## Desktop view (1920 x 1080):
+<img src="READMEImgs/desktopView.PNG" width="75%"/>
+
 ### `Tech Used`
 
 - Server Side:
