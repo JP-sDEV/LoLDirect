@@ -7,10 +7,7 @@
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "concurrently": "^5.0.2",
-<<<<<<< HEAD
     "dotenv": "^8.2.0",
-=======
->>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
     "express": "^4.17.1",
     "path": "^0.12.7",
     "rss-parser": "^3.7.3"
