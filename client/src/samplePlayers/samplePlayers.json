@@ -1,0 +1,136 @@
+[
+  {
+    "birth_year": 1995,
+    "birthday": "1995-03-07",
+    "current_team": {
+      "acronym": "TL",
+      "id": 390,
+      "image_url": "https://cdn.pandascore.co/images/team/image/390/liquid.png",
+      "location": "NL",
+      "modified_at": "2020-01-25T21:55:26Z",
+      "name": "Team Liquid",
+      "slug": "liquid"
+    },
+    "current_videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "first_name": "Eon-yeong",
+    "hometown": "South Korea",
+    "id": 32,
+    "image_url": "https://cdn.pandascore.co/images/player/image/32/220px_tl_impact_2020_split_1.png",
+    "last_name": "Jung",
+    "name": "Impact",
+    "nationality": "KR",
+    "role": "top",
+    "slug": "impact"
+  },
+  {
+    "birth_year": 1997,
+    "birthday": "1997-08-12",
+    "current_team": {
+      "acronym": "TL",
+      "id": 390,
+      "image_url": "https://cdn.pandascore.co/images/team/image/390/liquid.png",
+      "location": "NL",
+      "modified_at": "2020-01-25T21:55:26Z",
+      "name": "Team Liquid",
+      "slug": "liquid"
+    },
+    "current_videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "first_name": "Mads",
+    "hometown": "Denmark",
+    "id": 855,
+    "image_url": "https://cdn.pandascore.co/images/player/image/855/220px-FNC_Broxah_2019_Split_2.png",
+    "last_name": "Brock-Pedersen",
+    "name": "Broxah",
+    "nationality": "DK",
+    "role": "jun",
+    "slug": "broxah"
+  },
+  {
+    "birth_year": 1996,
+    "birthday": "1996-05-07",
+    "current_team": {
+      "acronym": "T1",
+      "id": 126061,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+      "location": "KR",
+      "name": "T1",
+      "slug": "t1"
+    },
+    "current_videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "first_name": "Lee",
+    "hometown": "South Korea",
+    "id": 585,
+    "image_url": "https://cdn.pandascore.co/images/player/image/585/220px-SKT_Faker_2019_Split_2.png",
+    "last_name": "Sang-hyeok",
+    "name": "Faker",
+    "nationality": "KR",
+    "role": "mid",
+    "slug": "faker"
+  },
+  {
+    "birth_year": 1993,
+    "birthday": "1993-07-19",
+    "current_team": {
+      "acronym": "TL",
+      "id": 390,
+      "image_url": "https://cdn.pandascore.co/images/team/image/390/liquid.png",
+      "location": "NL",
+      "modified_at": "2020-01-25T21:55:26Z",
+      "name": "Team Liquid",
+      "slug": "liquid"
+    },
+    "current_videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "first_name": "Yiliang",
+    "hometown": "United States",
+    "id": 2145,
+    "image_url": "https://cdn.pandascore.co/images/player/image/2145/220px_tl_doublelift_2020_split_1.png",
+    "last_name": "Peng",
+    "name": "Doublelift",
+    "nationality": "US",
+    "role": "adc",
+    "slug": "doublelift"
+  },
+  {
+    "birth_year": 1996,
+    "birthday": "1996-09-17",
+    "current_team": {
+      "acronym": "TSM",
+      "id": 387,
+      "image_url": "https://cdn.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+      "location": "US",
+      "modified_at": "2020-01-27T13:37:37Z",
+      "name": "Team SoloMid",
+      "slug": "solomid"
+    },
+    "current_videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "first_name": "Vincent",
+    "hometown": "",
+    "id": 510,
+    "image_url": "https://cdn.pandascore.co/images/player/image/510/220px_tsm_biofrost_2020_split_1.png",
+    "last_name": "Wang",
+    "name": "Biofrost",
+    "nationality": "CA",
+    "role": "sup",
+    "slug": "biofrost"
+  }
+]

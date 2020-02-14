@@ -1,10 +1,13 @@
 import React, { useContext } from "react";
 import { AppContext } from "../AppContext";
 import { useHistory } from "react-router-dom";
+import { BrowserRouter as Router, Switch, useLocation } from "react-router-dom";
+import axios from "axios";
 
-export const SearchPlayers = () => {
+export const SearchPlayers = ({ setsearchResults }) => {
   const history = useHistory();
   const contextValue = useContext(AppContext);
+  const location = useLocation();
 
   const handlePlayerSearch = userInput => {
     contextValue.setSearchString(userInput);
@@ -15,6 +18,13 @@ export const SearchPlayers = () => {
     try {
       if (!contextValue.searchString) {
         alert("Search is empty!");
+      } else if (location.pathname == "/MakeATeam") {
+        axios({
+          method: "get",
+          url: `/api/players/Search?playerName=${contextValue.searchString}`
+        }).then(res => setsearchResults(res.data));
+
+        // setsearchResults(fantasyPlayerSearch);
       } else {
         history.push(`/Players/Search?playerName=${contextValue.searchString}`);
       }
@@ -24,7 +34,7 @@ export const SearchPlayers = () => {
   };
 
   return (
-    <div>
+    <div className="searchContainer">
       {contextValue.searchResults.length > 0 ? (
         <div>
           {contextValue.searchResults.map(player => (
@@ -38,7 +48,7 @@ export const SearchPlayers = () => {
         <div></div>
       )}
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="searchBanner">
         <input
           type="textarea"
           placeholder="Search For A Player..."

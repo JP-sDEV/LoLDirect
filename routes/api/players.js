@@ -37,8 +37,8 @@ router.get("/search", async (req, res) => {
       url: `${baseURL}/lol/players?search[name]=${player}`,
       headers: config
     });
-    var test = handleNulls(searchPlayers.data);
-    res.json(test);
+    var playersData = handleNulls(searchPlayers.data);
+    res.json(playersData);
   } catch (err) {
     console.error(err);
   }

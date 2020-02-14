@@ -17,8 +17,6 @@ export const PlayersSearch = ({ location }) => {
 
       setPlayers(requestSearchPlayers.data);
       setLoading(false);
-      console.log("making call from player search");
-      console.log(players);
     };
     getPlayerSearch();
   }, [location]);
