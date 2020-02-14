@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
-const apiCreds = require("../../apiCreds");
+const apiCreds = process.env.API_CREDS;
 
 const baseURL = "https://api.pandascore.co";
 const config = {
-  Authorization: `Bearer ${apiCreds.pandaScore}`
+  Authorization: `Bearer ${apiCreds}`
 };
 const handleNulls = require("../../services/handleNulls");
 
