@@ -3,12 +3,15 @@
   --secondaryColor: #bbccf0;
 }
 
+<<<<<<< HEAD
 html,
 body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
+=======
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
 body {
   text-align: center;
   margin: 0;
@@ -22,7 +25,11 @@ body {
 }
 
 #headerTitle h3 {
+<<<<<<< HEAD
   margin: 1% 0 0 0;
+=======
+  margin: 0;
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
 }
 
 ul {
@@ -69,6 +76,7 @@ ul {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 /* SEARCH COMPONENT */
 
 .searchBanner {
@@ -84,6 +92,8 @@ ul {
   padding: 4%;
 }
 
+=======
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
 /* Player Cards */
 .playerCard {
   display: flex;
@@ -241,6 +251,7 @@ ul {
   text-align: left;
 }
 
+<<<<<<< HEAD
 /* MAKE A TEAM */
 .makeATeamContainer {
   display: flex;
@@ -298,6 +309,9 @@ ul {
 }
 
 @media (min-width: 550px) {
+=======
+@media (min-width: 768px) {
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   /* NAVBAR */
   #showCase {
     display: flex;
@@ -315,7 +329,11 @@ ul {
     padding: 1%;
   }
   #headerImg {
+<<<<<<< HEAD
     width: 15%;
+=======
+    width: 10%;
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   }
 
   /* HOME PAGE */
@@ -323,10 +341,13 @@ ul {
     width: 15%;
     margin: 0 auto;
   }
+<<<<<<< HEAD
   .homeTeams {
     margin-bottom: 1%;
   }
 
+=======
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   .homeTeams > ul {
     display: flex;
     flex-direction: row;
@@ -336,6 +357,7 @@ ul {
     height: 100%;
   }
 
+<<<<<<< HEAD
   /* SEARCH COMPONENT */
   .searchContainer {
   }
@@ -352,6 +374,8 @@ ul {
     padding: 1% 2%;
   }
 
+=======
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   /* PLAYER SEARCH  */
   .playerCardItem {
     width: 25%;
@@ -388,6 +412,7 @@ ul {
     width: 70%;
     margin: 0 auto;
   }
+<<<<<<< HEAD
 
   /* MAKE A TEAM */
   .makeATeamContainer {
@@ -450,6 +475,8 @@ ul {
     margin: 2% 0;
   }
 
+=======
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   /* MEDIA QUERY END */
 }
 /* MEDIA QUERY END */

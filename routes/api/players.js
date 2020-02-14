@@ -1,11 +1,19 @@
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
+<<<<<<< HEAD
 const apiCreds = process.env.API_CREDS;
 
 const baseURL = "https://api.pandascore.co";
 const config = {
   Authorization: `Bearer ${apiCreds}`
+=======
+const apiCreds = require("../../apiCreds");
+
+const baseURL = "https://api.pandascore.co";
+const config = {
+  Authorization: `Bearer ${apiCreds.pandaScore}`
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
 };
 const handleNulls = require("../../services/handleNulls");
 
@@ -37,8 +45,13 @@ router.get("/search", async (req, res) => {
       url: `${baseURL}/lol/players?search[name]=${player}`,
       headers: config
     });
+<<<<<<< HEAD
     var playersData = handleNulls(searchPlayers.data);
     res.json(playersData);
+=======
+    var test = handleNulls(searchPlayers.data);
+    res.json(test);
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   } catch (err) {
     console.error(err);
   }

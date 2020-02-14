@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from "react";
+=======
+import React, { useState, useEffect } from "react";
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
 
 export const NewsCard = ({ newsArticle }) => {
   const { title, link, isoDate } = newsArticle;

@@ -17,6 +17,11 @@ export const PlayersSearch = ({ location }) => {
 
       setPlayers(requestSearchPlayers.data);
       setLoading(false);
+<<<<<<< HEAD
+=======
+      console.log("making call from player search");
+      console.log(players);
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
     };
     getPlayerSearch();
   }, [location]);

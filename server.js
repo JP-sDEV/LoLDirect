@@ -2,8 +2,11 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
+<<<<<<< HEAD
 require("dotenv").config();
 console.log(process.env);
+=======
+>>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
 app.use("/api/players", require("./routes/api/players"));
 app.use("/api/news", require("./routes/api/news"));
 
