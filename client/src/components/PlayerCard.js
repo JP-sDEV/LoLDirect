@@ -9,11 +9,7 @@ export const PlayerCard = ({ playerInfo }) => {
     teamLogo: playerInfo.current_team.image_url,
     foreground:
       playerInfo.image_url == " "
-<<<<<<< HEAD
         ? "https://cdn.pandascore.co/images/player/image/1134/wewillfailer-hnmreanu.png"
-=======
-        ? "https://cdn.pandascore.co/images/player/image/23438/feeniixz.png"
->>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
         : playerInfo.image_url
   };
   const botCardInfo = {
@@ -23,10 +19,6 @@ export const PlayerCard = ({ playerInfo }) => {
     teamName: playerInfo.current_team.acronym,
     role: playerInfo.role
   };
-<<<<<<< HEAD
-=======
-
->>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   const viewPlayer = async player => {
     try {
       await contextValue.setSelectedPlayer(player);
@@ -35,10 +27,6 @@ export const PlayerCard = ({ playerInfo }) => {
       console.error(err);
     }
   };
-<<<<<<< HEAD
-=======
-
->>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
   return (
     //   card
     <div className="playerCard">
@@ -50,10 +38,6 @@ export const PlayerCard = ({ playerInfo }) => {
 
          */}
       <div className="playerCardTop">
-<<<<<<< HEAD
-=======
-        {/* <h1 className="foreground">test</h1> */}
->>>>>>> d1e8c74b99f1dcbb9ce377360c97a63d34983d3e
         <img className="teamLogo" src={topCardInfo.teamLogo} />
         <img className="foreground" src={topCardInfo.foreground} />
       </div>
