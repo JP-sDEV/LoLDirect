@@ -16,13 +16,9 @@ body {
 }
 
 /* HEADER */
-.grid {
+.nav {
   display: grid;
   background-color: var(--mainColor);
-}
-
-#headerTitle h3 {
-  margin: 1% 0 0 0;
 }
 
 ul {
@@ -35,11 +31,12 @@ ul {
   display: inline-block;
   width: 75%;
   height: auto;
-  margin: 0 auto;
+  margin-left: 0 auto;
 }
 
 #logo {
-  width: 100%;
+  width: 30vw;
+  margin-top: 3vw;
 }
 
 .submitSearch {
@@ -52,7 +49,7 @@ ul {
   font-size: 16px;
 }
 
-.navBar {
+.optionsBar {
   display: flex;
   justify-content: space-evenly;
   padding: 2% 0;
@@ -88,7 +85,7 @@ ul {
 .playerCard {
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  padding: 2;
   border: 2px solid #c9d6de;
   width: 75%;
   margin: 0 auto;
@@ -211,8 +208,7 @@ ul {
 }
 
 .infoPlayerImage {
-  width: 70%;
-  height: 70%;
+  width: 15vw;
   margin: 0 auto;
 }
 
@@ -298,29 +294,83 @@ ul {
 }
 
 @media (min-width: 550px) {
+  /* HOME PAGE */
+  .homeTeamsContainer {
+    margin: 0 auto;
+    margin-top: 3vh;
+  }
   /* NAVBAR */
   #showCase {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   a,
   h3 {
     font-size: 1.2em;
+    margin-bottom: 1vh;
   }
-  .navBar {
-    justify-content: center;
-    margin-top: 0;
-    width: 50%;
+
+  .navagationContainer {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    padding: 1%;
+    width: 90%;
+    align-self: center;
   }
+
+  /* HEADER */
+  .nav {
+    display: flex;
+    background-color: var(--mainColor);
+    flex-direction: row;
+    margin-bottom: 2vh;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
   #headerImg {
-    width: 15%;
+    display: inline-block;
+    width: 0;
+    height: auto;
+    margin: 0;
+    margin-left: 2vw;
+    align-self: center;
+  }
+
+  #logo {
+    width: 7vw;
+    margin-top: 0;
+  }
+
+  .submitSearch {
+    background-color: var(--secondaryColor);
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .optionsBar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .navLink {
+    width: 25%;
+    color: black;
+    text-decoration: none;
+    align-self: flex-end;
   }
 
   /* HOME PAGE */
   .homePlayer {
-    width: 15%;
+    width: 20%;
     margin: 0 auto;
   }
   .homeTeams {
@@ -337,11 +387,11 @@ ul {
   }
 
   /* SEARCH COMPONENT */
-  .searchContainer {
-  }
+  /* .searchContainer {
+  } */
   .searchBanner {
     margin: 0;
-    padding: 1%;
+    padding: 0;
   }
   .searchBanner > input {
     width: 25%;
@@ -387,6 +437,13 @@ ul {
   .infoPlayerImage {
     width: 70%;
     margin: 0 auto;
+  }
+
+  .playerCardTop .foreground {
+    width: 8vw;
+    margin: 0 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 
   /* MAKE A TEAM */

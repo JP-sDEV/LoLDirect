@@ -13,22 +13,26 @@ export const Home = () => {
   ];
   return (
     <div className="home">
-      <div className="homePlayer">
-        <h3>Look up League Pros</h3>
-        <PlayerCard playerInfo={samplePlayerInfo[2]} />
+      <div className="homePlayerContainer">
+        <div className="homePlayer">
+          <h3>Look up League Pros</h3>
+          <PlayerCard playerInfo={samplePlayerInfo[2]} />
+        </div>
       </div>
-      <div className="homeTeams">
-        {/* Put list of pro teams */}
-        <h3>Find Players from the Top Teams</h3>
-        <ul>
-          {popularTeams.map(team => {
-            return (
-              <div className="logoContainer" key={team}>
-                <img className="teamLogos" src={team} />
-              </div>
-            );
-          })}
-        </ul>
+      <div className="homeTeamsContainer">
+        <div className="homeTeams">
+          {/* Put list of pro teams */}
+          <h3>Find Players from the Top Teams</h3>
+          <ul>
+            {popularTeams.map(team => {
+              return (
+                <div className="logoContainer" key={team}>
+                  <img className="teamLogos" src={team} />
+                </div>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </div>
   );

@@ -6,38 +6,29 @@ import { BrowserRouter as Router, Switch, useLocation } from "react-router-dom";
 export const NavBar = () => {
   const location = useLocation();
   return (
-    <section className="grid" id="showCase">
-      <div id="headerTitle">
-        {" "}
-        <h3 className="">League of Legends Direct</h3>
-      </div>
+    <nav className="nav" id="showCase">
       <div id="headerImg">
         {" "}
-        <img
-          id="logo"
-          src="https://cdn2.downdetector.com/static/uploads/logo/image1.png"
-        />
+        <img id="logo" src="./logo.png" />
       </div>
-      {location.pathname !== "/MakeATeam" && <span></span> && (
-        <Fragment>
-          <SearchPlayers />
-        </Fragment>
-      )}
-      {/* <AppContext.Consumer>{context => <SearchPlayers />}</AppContext.Consumer> */}
-      <ul className="navBar">
-        <Link className="navLink" to="/">
-          Home
-        </Link>
-        <Link className="navLink" to="/MakeATeam">
-          Make A Team
-        </Link>
-        <Link className="navLink" to="/News">
-          News
-        </Link>
-        {/* <Link className="" to="/Contact">
-          Contact
-        </Link> */}
-      </ul>
-    </section>
+      <div className="navagationContainer">
+        {location.pathname !== "/MakeATeam" && <span></span> && (
+          <div className="navBarSearchContainer">
+            <SearchPlayers />
+          </div>
+        )}
+        <ul className="optionsBar">
+          <Link className="navLink" to="/">
+            Home
+          </Link>
+          <Link className="navLink" to="/MakeATeam">
+            Make A Team
+          </Link>
+          <Link className="navLink" to="/News">
+            News
+          </Link>
+        </ul>
+      </div>
+    </nav>
   );
 };
